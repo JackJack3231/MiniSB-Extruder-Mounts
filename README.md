@@ -1,15 +1,17 @@
 # MiniSB-Extruder-Mounts
-Remix of the MiniStealthburner to run other Extruders
+Remix of the Mini-Stealthburner to run other Extruders
 
 ![Lineup of Extruder-Mounts](./_MiniSB-Lineup-Combined.png)
 
-This repo includes reworked Files of the MiniStealthburner to allow you to use diferent Extruders, namely:
+This repo includes reworked Files of the Mini-Stealthburner to allow you to use diferent Extruders, namely:
 - [Mellow Libra Mini](https://www.aliexpress.com/item/1005003506182112.html)
 - [Annex Engineering Sherpa Micro](https://github.com/Annex-Engineering/Sherpa_Micro-Extruder)
 - [Annex Engineering Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
 - [LDO Orbiter v2.0](https://orbiterprojects.com/orbiter-v2-0/)
 - Trianglelab TBG-Lite ([Left](https://www.aliexpress.com/item/1005004186141062.html)- and [Right](https://www.aliexpress.com/item/1005003908281100.html)-Version)
 - [Vz-Hextrudort Low](https://github.com/VzBoT3D/Vz-HextrudORT)
+
+The only parts that have changed are the Cowling, Strain-Relief and the Spacers. Everything else is Stock(Hotend-Mount, X-Carriage) so this is a drop-in-replacement for Printers with the V0.2-Style X-Carriage.
 
 ## Versions
 There are two Versions, a "Standard" and a "Minified" Version. The Standard-Version has the upper Logo-Part of the MiniStealthburner in front of the Extruder (like [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA)). The Minified Version doesn't have this cover and is more in line with the Bowden-Toolhead or [Mini-AfterSherpa](https://github.com/PrintersForAnts/Mini-AfterSherpa).
