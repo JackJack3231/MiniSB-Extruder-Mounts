@@ -20,7 +20,7 @@ The TBG-Lite doesn't hold a PTFE-Reverse Bowden tube by itself, for this the PTF
 | **For Umbilical-PCB:**           |          |                                                              |
 | M3x6 BHCS                    | 2        | Umbilical PCB to Mounting Plate                              |
 ## Spacer Sizes
-| Variant | LDO-Motor | MOONS-Motor |
+| Strain-Relief Style | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
 | Standard | 2x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
 | Alternative | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
