@@ -18,7 +18,7 @@
 | M3x16 BHCS | 1 | Replace Motor Screws for more Thread for the Spacers to engage with |
 | M3x6 BHCS                    | 2        | Umbilical PCB to Mounting Plate                              |
 ## Spacer Sizes
-| Variant | LDO-Motor | MOONS-Motor |
+| Strain-Relief Style | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
 | Standard | 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl), 1x [23.85mm](/Spacers/Octagon-STL/Octagon_Spacer_23.85mm.stl) | 1x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl), 1x [23.85mm](/Spacers/Octagon-STL/Octagon_Spacer_23.85mm.stl) |
 | Alternative | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) | 2x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl) |
