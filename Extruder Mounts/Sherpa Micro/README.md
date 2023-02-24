@@ -20,9 +20,9 @@
 ## Spacer Sizes
 | Variant | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
-| Standard | 1x 21.85mm, 1x 23.85 | 1x 21.35mm, 1x 23.85mm |
-| Alternative | 2x 21.85mm | 2x 21.35mm |
-| Umbilical-PCB | 2x 21.85mm | 2x 21.35mm |
+| Standard | 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl), 1x [23.85mm](/Spacers/Octagon-STL/Octagon_Spacer_23.85mm.stl) | 1x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl), 1x [23.85mm](/Spacers/Octagon-STL/Octagon_Spacer_23.85mm.stl) |
+| Alternative | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) | 2x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl) |
+| Umbilical-PCB | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) | 2x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl) |
 ## Images
 ### Standard
 ![Standard](images/Sherpa-Micro_1.png)
