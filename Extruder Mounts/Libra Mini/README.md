@@ -22,5 +22,7 @@
 | Alternative | 2x 17.85mm | 2x 17.35mm |
 | Umbilical-PCB | 2x 17.85mm | 2x 17.35mm |
 ## Images
+### Standard
 ![Standard](images/Libra-Mini_1.png)
+### Minified
 ![Minified](images/Libra-Mini-Minified_1.png)
