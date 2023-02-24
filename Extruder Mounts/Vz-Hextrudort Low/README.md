@@ -16,7 +16,7 @@
 | **For Umbilical-PCB:**           |          |                                                              |
 | M3x6 BHCS                    | 2        | Umbilical PCB to Mounting Plate                              |
 ## Spacer Sizes
-| Variant | LDO-Motor | MOONS-Motor |
+| Strain-Relief Style | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
 | Standard | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
 | Alternative | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
