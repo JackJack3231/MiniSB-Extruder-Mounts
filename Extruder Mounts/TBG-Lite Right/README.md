@@ -1,4 +1,4 @@
-# MiniSB TBG-Lite Left
+# MiniSB TBG-Lite Right
 ## PTFE-Holder
 The TBG-Lite doesn't hold a PTFE-Reverse Bowden tube by itself, for this the PTFE-Holder is included. Mount by removing the top-left Screw and pushing on the PTFE-Holder and then securing it with a M3x30 BHCS.
 ## BOM
