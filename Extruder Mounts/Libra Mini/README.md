@@ -16,7 +16,7 @@
 | **For Umbilical-PCB:**           |          |                                                              |
 | M3x6 BHCS                    | 2        | Umbilical PCB to Mounting Plate                              |
 ## Spacer Sizes
-| Variant | LDO | MOONS |
+| Variant | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
 | Standard | 2x 17.85mm | 2x 17.35mm |
 | Alternative | 2x 17.85mm | 2x 17.35mm |
