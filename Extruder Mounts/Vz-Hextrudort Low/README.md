@@ -18,9 +18,9 @@
 ## Spacer Sizes
 | Variant | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
-| Standard | 2x 22.20mm | 2x 21.70mm |
-| Alternative | 2x 22.20mm | 2x 21.70mm |
-| Umbilical-PCB | 2x 22.20mm | 2x 21.70mm |
+| Standard | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
+| Alternative | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
+| Umbilical-PCB | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
 ## Images
 ### Standard
 ![Standard](images/Vz-Hextrudort-Low-CNC_1.png)
