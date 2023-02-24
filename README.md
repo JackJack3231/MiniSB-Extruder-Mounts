@@ -23,6 +23,7 @@ The needed Spacers (Size according to CAD) are also included, both in the standa
 
 ## Extras
 There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Folder.
+
 ![Mainsail Sidebar](images/mainsail-sidebar-example.png)
 
 ## Print-Instructions
