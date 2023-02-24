@@ -17,7 +17,7 @@ There are two Versions: The CAD-Version has the exact Mounting-Hole spacing from
 | **For Umbilical-PCB:**           |          |                                                              |
 | M3x6 BHCS                    | 2        | Umbilical PCB to Mounting Plate                              |
 ## Spacer Sizes
-| Variant | LDO-Motor | MOONS-Motor |
+| Strain-Relief Style | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
 | Standard | 2x [18.10mm](/Spacers/Octagon-STL/Octagon_Spacer_18.10mm.stl) | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
 | Alternative | 2x [18.10mm](/Spacers/Octagon-STL/Octagon_Spacer_18.10mm.stl) | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
