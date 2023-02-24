@@ -1,4 +1,6 @@
 # MiniSB Orbiter v2.0
+## Versions
+There are two Versions: The CAD-Version has the exact Mounting-Hole spacing from the Orbiter-CAD-File. The Offset-Version has the left Mounting-Hole moved 0.4mm outside, because the Orbiter v2.0 that i have has a 0.4mm offset Mounting-Hole from the CAD. To check which version you need use some calipers and measure the shortest distance of the Mounting-Holes: 33.80mm -> CAD-Version, 34.20mm -> Offset Version.
 ## BOM
 | Part                         | Quantity | Usage                                                        |
 |------------------------------|----------|--------------------------------------------------------------|
@@ -17,11 +19,11 @@
 ## Spacer Sizes
 | Variant | LDO-Motor | MOONS-Motor |
 |---------|-----|-------|
-| Standard | 2x 17.85mm | 2x 17.35mm |
-| Alternative | 2x 17.85mm | 2x 17.35mm |
-| Umbilical-PCB | 2x 17.85mm | 2x 17.35mm |
+| Standard | 2x 18.10mm | 2x 17.60mm |
+| Alternative | 2x 18.10mm | 2x 17.60mm |
+| Umbilical-PCB | 2x 18.10mm | 2x 17.60mm |
 ## Images
 ### Standard
-![Standard](images/Libra-Mini_1.png)
+![Standard](images/Orbiter-v2.0_1.png)
 ### Minified
-![Minified](images/Libra-Mini-Minified_1.png)
+![Minified](images/Orbiter-v2.0-Minified_1.png)
