@@ -1,4 +1,4 @@
-# MiniSB Libra Mini
+# MiniSB Libra Mini (Untested)
 ## BOM
 | Part                         | Quantity | Usage                                                        |
 |------------------------------|----------|--------------------------------------------------------------|
