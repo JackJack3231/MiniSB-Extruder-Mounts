@@ -1,4 +1,4 @@
-# MiniSB Vz-Hextrudort Low
+# MiniSB Vz-Hextrudort Low CNC
 ## BOM
 | Part                         | Quantity | Usage                                                        |
 |------------------------------|----------|--------------------------------------------------------------|

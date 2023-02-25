@@ -9,7 +9,7 @@ This repo includes reworked Files of the Mini-Stealthburner to allow you to use 
 - [Annex Engineering Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder)
 - [LDO Orbiter v2.0](https://orbiterprojects.com/orbiter-v2-0/)
 - Trianglelab TBG-Lite ([Left](https://www.aliexpress.com/item/1005004186141062.html)- and [Right](https://www.aliexpress.com/item/1005003908281100.html)-Version)
-- [Vz-Hextrudort Low](https://github.com/VzBoT3D/Vz-HextrudORT)
+- [Vz-Hextrudort Low CNC](https://github.com/VzBoT3D/Vz-HextrudORT)
 
 The only parts that have changed are the Cowling, Strain-Relief and the Spacers. Everything else is Stock(Hotend-Mount, X-Carriage) so this is a drop-in-replacement for Printers with the V0.2-Style X-Carriage.
 
