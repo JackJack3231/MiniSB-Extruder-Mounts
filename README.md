@@ -13,6 +13,17 @@ This repo includes reworked Files of the Mini-Stealthburner to allow you to use 
 
 The only parts that have changed are the Cowling, Strain-Relief and the Spacers. Everything else is Stock(Hotend-Mount, X-Carriage) so this is a drop-in-replacement for Printers with the V0.2-Style X-Carriage.
 
+As I don't have all of the extruders some are untested, however if the CAD-Files are accurate they should work fine. This table shows the versions i have verified to work (green checkmark):
+| Extruder | Standard | Minified |
+| -------- | -------- | -------- |
+| Libra Mini | :grey_question: | :grey_question: |
+| Sherpa Micro | :grey_question: | :heavy_check_mark: |
+| Sherpa Mini | :grey_question: | :heavy_check_mark: |
+| Orbiter v2.0 | :grey_question: | :heavy_check_mark: |
+| TBG-Lite Left | :grey_question: | :heavy_check_mark: |
+| TBG-Lite Right | :grey_question: | :grey_question: |
+| Vz-Hextrudort Low CNC | :heavy_check_mark: | :heavy_check_mark: |
+
 ## Versions
 There are two Versions, a "Standard" and a "Minified" Version. The Standard-Version has the upper Logo-Part of the MiniStealthburner in front of the Extruder (like [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA)). The Minified Version doesn't have this cover and is more in line with the Bowden-Toolhead or [Mini-AfterSherpa](https://github.com/PrintersForAnts/Mini-AfterSherpa).
 
