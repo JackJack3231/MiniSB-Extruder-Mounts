@@ -1,7 +1,7 @@
 # MiniSB-Extruder-Mounts
 Remix of the Mini-Stealthburner to run other Extruders
 
-![Lineup of Extruder-Mounts](images/_MiniSB-Lineup-Combined_v2.png)
+![Lineup of Extruder-Mounts](images/_MiniSB-Lineup-Combined_v3.png)
 
 This repo includes reworked Files of the Mini-Stealthburner to allow you to use diferent Extruders, namely:
 - [Mellow Libra Mini](https://www.aliexpress.com/item/1005003506182112.html)
