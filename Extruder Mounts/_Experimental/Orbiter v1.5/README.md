@@ -28,7 +28,7 @@ Because of the length of the Orbiter v1.5 there are some challenges with this de
 | ------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
 | Standard            | 1x [23.10mm](/Spacers/Octagon-STL/Octagon_Spacer_23.10mm.stl), 1x [10.80mm](/Spacers/Octagon-STL/Octagon_Spacer_10.80mm.stl) | 1x [22.60mm](/Spacers/Octagon-STL/Octagon_Spacer_22.60mm.stl), 1x [10.30mm](/Spacers/Octagon-STL/Octagon_Spacer_10.30mm.stl) |
 | Alternative         | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) | 2x [17.10mm](/Spacers/Octagon-STL/Octagon_Spacer_17.10mm.stl) |
-| Umbilical-PCB       | 2x [17.40mm](/Spacers/Octagon-STL/Octagon_Spacer_17.40mm.stl) | 2x [16.90mm](/Spacers/Octagon-STL/Octagon_Spacer_16.90mm.stl) |
+| Umbilical-PCB       | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) | 2x [17.10mm](/Spacers/Octagon-STL/Octagon_Spacer_17.10mm.stl) |
 
 ## Images
 
