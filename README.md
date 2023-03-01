@@ -17,10 +17,10 @@ As I don't have all of the extruders some are untested, however if the CAD-Files
 | Extruder | Standard | Minified |
 | -------- | -------- | -------- |
 | Libra Mini | :grey_question: | :grey_question: |
-| Sherpa Micro | :grey_question: | :heavy_check_mark: |
-| Sherpa Mini | :grey_question: | :heavy_check_mark: |
-| Orbiter v2.0 | :grey_question: | :heavy_check_mark: |
-| TBG-Lite Left | :grey_question: | :heavy_check_mark: |
+| Sherpa Micro | :heavy_check_mark: | :heavy_check_mark: |
+| Sherpa Mini | :heavy_check_mark: | :heavy_check_mark: |
+| Orbiter v2.0 | :heavy_check_mark: | :heavy_check_mark: |
+| TBG-Lite Left | :heavy_check_mark: | :heavy_check_mark: |
 | TBG-Lite Right | :grey_question: | :grey_question: |
 | Vz-Hextrudort Low CNC | :heavy_check_mark: | :heavy_check_mark: |
 
