@@ -1,5 +1,6 @@
 # MiniSB Vz-Hextrudort Low CNC
 ## BOM
+[General BOM](/README.md#general-bom) and following parts are needed
 | Part                         | Quantity | Usage                                                        |
 |------------------------------|----------|--------------------------------------------------------------|
 | M3x5x4 Heatset Insert        | 4        | Strain-Relief Spacers                              |

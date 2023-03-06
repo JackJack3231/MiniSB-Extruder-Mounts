@@ -2,6 +2,7 @@
 ## Versions
 There are two Versions: The CAD-Version has the exact Mounting-Hole spacing from the Orbiter-CAD-File. The Offset-Version has the left Mounting-Hole moved 0.4mm outside, because the Orbiter v2.0 that i have has a 0.4mm offset Mounting-Hole from the CAD. To check which version you need use some calipers and measure the shortest distance of the Mounting-Holes: 33.80mm -> CAD-Version, 34.20mm -> Offset Version.
 ## BOM
+[General BOM](/README.md#general-bom) and following parts are needed
 | Part                         | Quantity | Usage                                                        |
 |------------------------------|----------|--------------------------------------------------------------|
 | M3x5x4 Heatset Insert        | 6        | Cowling & Strain-Relief Spacers                              |

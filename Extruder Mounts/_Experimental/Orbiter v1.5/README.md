@@ -3,7 +3,7 @@
 Because of the length of the Orbiter v1.5 there are some challenges with this design, including Strain-Reliefs and potential Space constraints within a V0. Because of these untested issues it is marked as an experimental release. Use with caution.
 
 ## BOM
-
+[General BOM](/README.md#general-bom) and following parts are needed
 | Part                             | Quantity | Usage                                                          |
 | -------------------------------- | -------- | -------------------------------------------------------------- |
 | M3x5x4 Heatset Insert            | 6        | Cowling & Strain-Relief Spacers                                |

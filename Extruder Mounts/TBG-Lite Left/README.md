@@ -4,6 +4,7 @@ The TBG-Lite doesn't hold a PTFE-Reverse Bowden tube by itself, for this the PTF
 
 The orientation in which the PTFE-Holder is printed makes it crucial that you have good layer adhesion. If you have issues with the part breaking during installation try printing it rotated by 90°, so the PTFE-Hole is at the top and the mounting holes at the bottom.
 ## BOM
+[General BOM](/README.md#general-bom) and following parts are needed
 | Part                         | Quantity | Usage                                                        |
 |------------------------------|----------|--------------------------------------------------------------|
 | M3x5x4 Heatset Insert        | 4        | Strain-Relief Spacers                              |
@@ -27,6 +28,9 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 | Standard | 2x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
 | Alternative | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
 | Umbilical-PCB | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
+
+## Assembly
+Before installing the extruder to the cowling you'll have to replace the top motor screw (behind the idler tensioning arm) with the M3x8 FHCS. To do this you'll have to take appart the whole extruder and reassemble it after replacing this screw.
 ## Images
 ### Standard
 ![Standard](images/TBG-Lite-Left_1.png)
