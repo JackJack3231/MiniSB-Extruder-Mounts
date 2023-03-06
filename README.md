@@ -54,6 +54,7 @@ Pretty much all of the mounts get assembled the same way, important differences 
 
 ### PTFE-Length
 Approximate PTFE-Lengths according to the CAD-Files are provided in each extruder Readme. They are measured from the top of the hotend mount, just like in the V0.2 Assembly manual:
+
 ![PTFE Example](/images/PTFE_Example.png)
 ## Credits
 The files have been remixed from [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA). CAD-Files are included as well as Base-CAD-Files so you can easily create a Version for your Extruder.
