@@ -23,6 +23,8 @@ There are two Versions: The CAD-Version has the exact Mounting-Hole spacing from
 | Standard | 2x [18.10mm](/Spacers/Octagon-STL/Octagon_Spacer_18.10mm.stl) | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
 | Alternative | 2x [18.10mm](/Spacers/Octagon-STL/Octagon_Spacer_18.10mm.stl) | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
 | Umbilical-PCB | 2x [18.10mm](/Spacers/Octagon-STL/Octagon_Spacer_18.10mm.stl) | 2x [17.60mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
+## PTFE-Length
+~18.95mm should stick out from the top of your Hotend Mount
 ## Images
 ### Standard
 ![Standard](images/Orbiter-v2.0_1.png)

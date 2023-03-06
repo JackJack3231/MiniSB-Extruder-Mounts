@@ -22,6 +22,8 @@
 | Standard | 2x [17.85mm](/Spacers/Octagon-STL/Octagon_Spacer_17.85mm.stl) | 2x [17.35mm](/Spacers/Octagon-STL/Octagon_Spacer_17.35mm.stl) |
 | Alternative | 2x [17.85mm](/Spacers/Octagon-STL/Octagon_Spacer_17.85mm.stl) | 2x [17.35mm](/Spacers/Octagon-STL/Octagon_Spacer_17.35mm.stl) |
 | Umbilical-PCB | 2x [17.85mm](/Spacers/Octagon-STL/Octagon_Spacer_17.85mm.stl) | 2x [17.35mm](/Spacers/Octagon-STL/Octagon_Spacer_17.35mm.stl) |
+## PTFE-Length
+~17.20mm should stick out from the top of your Hotend Mount
 ## Images
 ### Standard
 ![Standard](images/Libra-Mini_1.png)

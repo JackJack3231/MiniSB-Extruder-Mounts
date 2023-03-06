@@ -22,6 +22,8 @@
 | Standard | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
 | Alternative | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
 | Umbilical-PCB | 2x [22.20mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
+## PTFE-Length
+~18.20mm should stick out from the top of your Hotend Mount
 ## Images
 ### Standard
 ![Standard](images/Vz-Hextrudort-Low-CNC_1.png)

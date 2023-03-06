@@ -27,6 +27,8 @@ Because of the unique Shape of the Apus-Extruder there is only a Minified Versio
 | Alternative         | -         | -           |
 | Umbilical-PCB       | -         | -           |
 
+## PTFE-Length
+~32.20mm should stick out from the top of your Hotend Mount
 ## Assembly
 1. Install the 4 Heatsets into the Cowling
 2. Install the Apus-Adapter printed part onto the Cowling and secure it with then 4 M3x12 BHCS into the Heatsets in the Cowling

@@ -24,6 +24,8 @@
 | Standard | 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl), 1x [23.85mm](/Spacers/Octagon-STL/Octagon_Spacer_23.85mm.stl) | 1x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl), 1x [23.85mm](/Spacers/Octagon-STL/Octagon_Spacer_23.85mm.stl) |
 | Alternative | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) | 2x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl) |
 | Umbilical-PCB | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) | 2x [21.35mm](/Spacers/Octagon-STL/Octagon_Spacer_21.35mm.stl) |
+## PTFE-Length
+~20.20mm should stick out from the top of your Hotend Mount
 ## Images
 ### Standard
 ![Standard](images/Sherpa-Micro_1.png)

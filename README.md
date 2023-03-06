@@ -51,6 +51,10 @@ Pretty much all of the mounts get assembled the same way, important differences 
 5. Install everything to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x22 BHCS from the rear
 6. Add Spacers for strain-relief/umbilical plate, you may need to replace some screws to have enough thread to engage with the spacers
 7. Add strain-relief/umbilical plate, secure to spacers and X-Carriage
+
+### PTFE-Length
+Approximate PTFE-Lengths according to the CAD-Files are provided in each extruder Readme. They are measured from the top of the hotend mount, just like in the V0.2 Assembly manual:
+![PTFE Example](/images/PTFE_Example.png)
 ## Credits
 The files have been remixed from [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA). CAD-Files are included as well as Base-CAD-Files so you can easily create a Version for your Extruder.
 

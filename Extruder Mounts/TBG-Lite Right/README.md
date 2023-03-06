@@ -28,7 +28,8 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 | Standard | 2x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 2x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
 | Alternative | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
 | Umbilical-PCB | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.35mm](/Spacers/Octagon-STL/Octagon_Spacer_22.35mm.stl) | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.85mm](/Spacers/Octagon-STL/Octagon_Spacer_21.85mm.stl) |
-
+## PTFE-Length
+~25.20mm should stick out from the top of your Hotend Mount
 ## Assembly
 Before installing the extruder to the cowling you'll have to replace the top motor screw (behind the idler tensioning arm) with the M3x8 FHCS. To do this you'll have to take appart the whole extruder and reassemble it after replacing this screw.
 ## Images
