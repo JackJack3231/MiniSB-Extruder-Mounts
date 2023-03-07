@@ -31,10 +31,13 @@ Because of the unique Shape of the Apus-Extruder there is only a Minified Versio
 ~32.20mm should stick out from the top of your Hotend Mount
 ## Assembly
 1. Install the 4 Heatsets into the Cowling
-2. Install the Apus-Adapter printed part onto the Cowling and secure it with then 4 M3x12 BHCS into the Heatsets in the Cowling
-3. Install the Fans and the Hotend
-4. Install to the X-Carriage
-5. Add strain-relief/umbilical
+2. Install the Fans and the Hotend, don't forget the PTFE-Tube
+3. Add M3 Hex-Nut into the Top-Slot on the cowling
+4. Remove the stock Adapter-Piece from the Extruder
+5. Install the Adapter printed Adapter part onto the Cowling and secure it with 4 M3x12 BHCS into the Heatsets in the Cowling
+6. Push the Extruder on the printed Adapter, lineup the holes in the side and secure with the M3 Screws it came with
+7. Install to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x22 BHCS from the rear
+8. Add strain-relief/umbilical
 
 ## Images
 

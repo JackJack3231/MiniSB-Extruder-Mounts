@@ -38,6 +38,7 @@ Needed for all mounts unless otherwise specified in specific mount instructions
 | -------------------------------- | -------- | --------------------------- |
 | M3x35 BHCS                       | 2        | Front Cowling Screws (same as stock MiniSB)             |
 | M3x22 BHCS            | 1        | Rear X-Carriage Screw, M3x25 + a Washer also works                     |
+| M3 Hex-Nut | 1 | Insert into Cowling for Rear X-Carriage Screw (same as stock MiniSB) |
 
 ## Print-Instructions
 Standard Voron Print-Settings (0.2mm Layer Height, 4 Perimeters, 40% Infill, 5 Top- and Bottom-Layers). No Supports are needed and all STLs are oriented the correct way and ready to import and print. 
@@ -46,11 +47,12 @@ Standard Voron Print-Settings (0.2mm Layer Height, 4 Perimeters, 40% Infill, 5 T
 Pretty much all of the mounts get assembled the same way, important differences get called out in the mount-specific Readme:
 1. Install Heatset-Inserts into Spacers, if your Extruder gets screwed down from the top also install Heatsets into the Cowling
 2. Install Fans according to [V0.2 Assembly Manual](https://github.com/VoronDesign/Voron-0/blob/Voron0.2/Manuals/VORON_V0.2_Assembly_Manual.pdf) (page 165-167)
-3. Secure Extruder to the Cowling with hardware mentioned in the mount-specific BOM
-4. Install Hotend, make sure to cut the PTFE-Tube to the correct length.
-5. Install everything to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x22 BHCS from the rear
-6. Add Spacers for strain-relief/umbilical plate, you may need to replace some screws to have enough thread to engage with the spacers
-7. Add strain-relief/umbilical plate, secure to spacers and X-Carriage
+3. Insert the M3 Hex-Nut into the slot on the top of the cowling
+4. Secure Extruder to the Cowling with hardware mentioned in the mount-specific BOM
+5. Install Hotend, make sure to cut the PTFE-Tube to the correct length.
+6. Install everything to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x22 BHCS from the rear
+7. Add Spacers for strain-relief/umbilical plate, you may need to replace some screws to have enough thread to engage with the spacers
+8. Add strain-relief/umbilical plate, secure to spacers and X-Carriage
 
 ### PTFE-Length
 Approximate PTFE-Lengths according to the CAD-Files are provided in each extruder Readme. They are measured from the top of the hotend mount, just like in the V0.2 Assembly manual:
