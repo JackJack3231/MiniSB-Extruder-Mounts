@@ -19,6 +19,10 @@
 | **Additional Parts for Umbilical PCB** | | |
 | M3x6 BHCS | 2 | Umbilical PCB to Mounting Plate |
 
+## Strain Relief and Umbilical plate
+The strain relief and umbilical plate are exactly the same as for the Sherpa Mini.
+So to save space the STLs are only located in the [Sherpa Mini Folder](../Sherpa_Mini/).
+
 ## Spacer Sizes
 
 | LDO-Motor                                                     | MOONS-Motor                                                   |
