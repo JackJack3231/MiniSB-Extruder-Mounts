@@ -35,6 +35,8 @@ As I don't have all of the extruders some are untested, however if the CAD-Files
 
 There are two Versions, a "Standard" and a "Minified" Version. The Standard-Version has the upper Logo-Part of the MiniStealthburner in front of the Extruder (like [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA)). The Minified Version doesn't have this cover and is more in line with the Bowden-Toolhead or [Mini-AfterSherpa](https://github.com/PrintersForAnts/Mini-AfterSherpa).
 
+### One Fits Most Version a.k.a Swiss Cheese
+There is a [Version](/Extruder_Mounts/_OneFitsMost/) that aims to support as many extruders as possible, while needing as few printed parts as possible. Dubbed swiss cheese.
 ## Strain-Relief and Spacers
 
 Also included are Strain-Reliefs (quickly and crappily thrown together) and Mounting Plates for the [Umbilical-PCB by Timmit](https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical).
