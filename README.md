@@ -68,3 +68,7 @@ The files have been remixed from [Mavericks LGX-Lite Mod](https://mods.vorondesi
 There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Folder.
 
 ![Mainsail Sidebar](images/mainsail-sidebar-example.png)
+
+# Changelog
+
+2023-06-06: Add Experimental Rapido HF Cowlings based on [Mavericks mod](https://mods.vorondesign.com/detail/dWZjGJ83RbTpRTdYYRwng).
