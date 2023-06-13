@@ -71,4 +71,6 @@ There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Fold
 
 # Changelog
 
+2023-06-13: Update Cowling ducts to the improved ones from the [V0.2r1 Release](https://github.com/VoronDesign/Voron-0#v02r1-2023-june). Rapido Cowlings are using the old ducts for now.
+
 2023-06-06: Add Experimental Rapido HF Cowlings based on [Mavericks mod](https://mods.vorondesign.com/detail/dWZjGJ83RbTpRTdYYRwng).
