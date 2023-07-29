@@ -28,7 +28,7 @@ As I don't have all of the extruders some are untested, however if the CAD-Files
 | Orbiter v1.5 | :grey_question: | :grey_question: |
 | Orbiter v2.0 | :heavy_check_mark: | :heavy_check_mark: |
 | TBG-Lite Left | :heavy_check_mark: | :heavy_check_mark: |
-| TBG-Lite Right | :grey_question: | :grey_question: |
+| TBG-Lite Right | :heavy_check_mark: | :heavy_check_mark: |
 | Vz-Hextrudort Low CNC | :heavy_check_mark: | :heavy_check_mark: |
 
 ## Versions
@@ -71,6 +71,13 @@ There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Fold
 
 # Changelog
 
-2023-06-13: Update Cowling ducts to the improved ones from the [V0.2r1 Release](https://github.com/VoronDesign/Voron-0#v02r1-2023-june). Rapido Cowlings are using the old ducts for now.
+2023-07-29: 
+- Update Rapido Cowlings to use R1-style part-cooling-ducts (a bit ugly but should work pretty well)
+- Add Dragon UHF Mount, as it should work just like the Rapido HF
+- Update One Fits Most Version to use R1 part-cooling-ducts (missed that last time)
 
-2023-06-06: Add Experimental Rapido HF Cowlings based on [Mavericks mod](https://mods.vorondesign.com/detail/dWZjGJ83RbTpRTdYYRwng).
+2023-06-13: 
+- Update Cowling ducts to the improved ones from the [V0.2r1 Release](https://github.com/VoronDesign/Voron-0#v02r1-2023-june). Rapido Cowlings are using the old ducts for now.
+
+2023-06-06: 
+- Add Experimental Rapido HF Cowlings based on [Mavericks mod](https://mods.vorondesign.com/detail/dWZjGJ83RbTpRTdYYRwng).
