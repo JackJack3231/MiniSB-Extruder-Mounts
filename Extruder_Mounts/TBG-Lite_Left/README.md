@@ -8,9 +8,8 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 |------------------------------|----------|--------------------------------------------------------------|
 | M3x5x4 Heatset Insert        | 4        | 
 | M3x35 BHCS             | 2        |                                                                            |
-| M3x30 BHCS | 1 |
-| M3x22 BHCS             | 1        | M3x25 + M3 Washer also works                                               |
-| M3x30 BHCS | 1 | Replace Screw for PTFE-Holder |
+| M3x30 BHCS | 1 | Replace Screw for PTFE-Holder
+| M3x20 BHCS             | 1        |                                                |
 | M3x12 BHCS                   | 3        | 
 | M3x8 BHCS                    | 2        | 
 | M3x6 BHCS                    | 2        | 
@@ -30,6 +29,6 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 
 ## Images
 ### Standard
-![Standard](images/TBG-Lite-Left_1.png)
+![Standard](images/TBG-Lite-Left.png)
 ### Minified
-![Minified](images/TBG-Lite-Left_Minified_1.png)
+![Minified](images/TBG-Lite-Left_Minified.png)

@@ -2,8 +2,8 @@
 
 Remix of the Mini-Stealthburner to run other Extruders
 
-![Lineup of Standard Extruder-Mounts](images/Standard_Lineup_v4.png)
-![Lineup of Minified Extruder-Mounts](images/Minified_Lienup_v3.png)
+![Lineup of Standard Extruder-Mounts](images/Standard_Lineup.png)
+![Lineup of Minified Extruder-Mounts](images/Minified_Lineup.png)
 
 This repo includes reworked Files of the Mini-Stealthburner to allow you to use diferent Extruders, namely:
 
@@ -15,6 +15,7 @@ This repo includes reworked Files of the Mini-Stealthburner to allow you to use 
 - [LDO Orbiter v2.0](https://orbiterprojects.com/orbiter-v2-0/)
 - Trianglelab TBG-Lite ([Left](https://www.aliexpress.com/item/1005004186141062.html)- and [Right](https://www.aliexpress.com/item/1005003908281100.html)-Version)
 - [Vz-Hextrudort Low CNC](https://github.com/VzBoT3D/Vz-HextrudORT)
+- [Bondtech LGX-Lite](https://www.bondtech.se/product/lgx-lite-large-gears-extruder/)
 
 The only parts that have changed are the Cowling, Strain-Relief and the Spacers. Everything else is Stock(Hotend-Mount, X-Carriage) so this is a drop-in-replacement for Printers with the V0.2-Style X-Carriage.
 
@@ -30,6 +31,7 @@ As I don't have all of the extruders some are untested, however if the CAD-Files
 | TBG-Lite Left | :heavy_check_mark: | :heavy_check_mark: |
 | TBG-Lite Right | :heavy_check_mark: | :heavy_check_mark: |
 | Vz-Hextrudort Low CNC | :heavy_check_mark: | :heavy_check_mark: |
+| LGX-Lite | :grey_question: | :grey_question: |
 
 ## Versions
 
@@ -56,7 +58,7 @@ Pretty much all of the mounts get assembled the same way, important differences 
 3. Insert the M3 Hex-Nut into the slot on the top of the cowling
 4. Secure Extruder to the Cowling with hardware mentioned in the mount-specific BOM
 5. Install Hotend, make sure to cut the PTFE-Tube to the correct length.
-6. Install everything to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x22 BHCS from the rear
+6. Install everything to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x20 BHCS from the rear
 7. Add Spacers for strain-relief/umbilical plate, you may need to replace some screws to have enough thread to engage with the spacers
 8. Add strain-relief/umbilical plate, secure to spacers and X-Carriage
 ## Credits
@@ -70,14 +72,18 @@ There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Fold
 ![Mainsail Sidebar](images/mainsail-sidebar-example.png)
 
 # Changelog
+## 2023-08-17
+- Added LGX-Lite Mounts. As Maverick hasn't updated the original Mod to the R1 ducts, I decided to add updated LGX-Lite Mounts to this repo. This includes Strain Relief, Umbilical Plate and a Minified Version.
+- Added small hexagonal shape to the rear of the cowling. This makes it slot into the X-Carriage even more, thanks [@probably-Erwins-Cat](https://github.com/probably-Erwins-Cat) for pointing that out. Closes [#3](https://github.com/JackJack3231/MiniSB-Extruder-Mounts/issues/3)
+- Moved Hexnut in the cowling back 2mm so now a M3x20 BHCS can be used to secure the cowling from the back instead of a M3x22.
 
-2023-07-29: 
+## 2023-07-29: 
 - Update Rapido Cowlings to use R1-style part-cooling-ducts (a bit ugly but should work pretty well)
 - Add Dragon UHF Mount, as it should work just like the Rapido HF
 - Update One Fits Most Version to use R1 part-cooling-ducts (missed that last time)
 
-2023-06-13: 
+## 2023-06-13: 
 - Update Cowling ducts to the improved ones from the [V0.2r1 Release](https://github.com/VoronDesign/Voron-0#v02r1-2023-june). Rapido Cowlings are using the old ducts for now.
 
-2023-06-06: 
+## 2023-06-06: 
 - Add Experimental Rapido HF Cowlings based on [Mavericks mod](https://mods.vorondesign.com/detail/dWZjGJ83RbTpRTdYYRwng).

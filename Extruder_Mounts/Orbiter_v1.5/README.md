@@ -8,7 +8,7 @@ Because of the length of the Orbiter v1.5 there are some challenges with this de
 | -------------------------------- | -------- | -------------------------------------------------------------- |
 | M3x5x4 Heatset Insert | 8 |  |
 | M3x35 BHCS | 2 | |
-| M3x22 BHCS | 1 | M3x25 + M3 Washer also works |
+| M3x20 BHCS | 1 | |
 | M3x8 BHCS | 4 |  |
 | M3x6 BHCS | 4 |  |
 | M3 Hexnut | 1 |
@@ -30,8 +30,8 @@ Because of the length of the Orbiter v1.5 there are some challenges with this de
 
 ### Standard
 
-![Standard](images/Orbiter_v1.5_1.png)
+![Standard](images/Orbiter_v1.5.png)
 
 ### Minified
 
-![Minified](images/Orbiter_v1.5_Minified_1.png)
+![Minified](images/Orbiter_v1.5_Minified.png)

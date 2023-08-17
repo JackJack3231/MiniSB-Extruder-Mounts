@@ -10,7 +10,7 @@ There are two Versions: The CAD-Version has the exact Mounting-Hole spacing from
 | ---------------------- | -------- | ------------------------------------------------ |
 | M3x5x4 Heatset Insert  | 6        |             |
 | M3x35 BHCS | 2 | |
-| M3x22 BHCS | 1 | M3x25 + M3 Washer also works |
+| M3x20 BHCS | 1 |  |
 | M3x8 BHCS              | 4        | 
 | M3x6 BHCS              | 2        | 
 | M3 Hexnut | 1 |
@@ -31,8 +31,8 @@ There are two Versions: The CAD-Version has the exact Mounting-Hole spacing from
 
 ### Standard
 
-![Standard](images/Orbiter_v2.0_1.png)
+![Standard](images/Orbiter_v2.0.png)
 
 ### Minified
 
-![Minified](images/Orbiter_v2.0_Minified_1.png)
+![Minified](images/Orbiter_v2.0_Minified.png)

@@ -4,7 +4,7 @@
 |------------------------------|----------|--------------------------------------------------------------|
 | M3x5x4 Heatset Insert        | 4        | 
 | M3x35 BHCS | 2 | |
-| M3x22 BHCS | 1 | M3x25 + M3 Washer also works |
+| M3x20 BHCS | 1 | |
 | M3x12 BHCS                   | 2        | 
 | M3x8 BHCS                    | 2        | 
 | M3x6 BHCS                    | 2        | 
@@ -23,6 +23,6 @@
 
 ## Images
 ### Standard
-![Standard](images/Vz-Hextrudort_Low_CNC_1.png)
+![Standard](images/Vz-Hextrudort_Low_CNC.png)
 ### Minified
-![Minified](images/Vz-Hextrudort_Low_CNC_Minified_1.png)
+![Minified](images/Vz-Hextrudort_Low_CNC_Minified.png)

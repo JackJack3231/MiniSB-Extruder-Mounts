@@ -1,7 +1,7 @@
 # One Fits Most Mount a.k.a. Swiss Cheese
 This is a variant of the Minified Cowling that allows you to mount many extruders while having to print very few files.
 
-The Cowling itself supports the Sherpa Mini, Libra Mini, TBG-Lite Left and Right and the Vz-Hextrudort Low CNC. The Sherpa Micro and Orbiter v2.0 can be used by printing a adapter plate each.
+The Cowling itself supports the Sherpa Mini, Libra Mini, TBG-Lite Left and Right, the Vz-Hextrudort Low CNC and the LGX Lite. The Sherpa Micro and Orbiter v2.0 can be used by printing a adapter plate each.
 
 ![Cowling](./images/OFM_Cowling.png)
 

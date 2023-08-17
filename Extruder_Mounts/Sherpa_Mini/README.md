@@ -6,7 +6,7 @@
 | ---------------------- | -------- | -------------------------------------------------------------------------- |
 | M3x5x4 Heatset Insert  | 6        |
 | M3x35 BHCS             | 2        |                                                                            |
-| M3x22 BHCS             | 1        | M3x25 + M3 Washer also works                                               |
+| M3x20 BHCS             | 1        |                                                |
 | M3x16 BHCS             | 2        |                                                                            |
 | M3x8 BHCS              | 2        |                                                                            |
 | M3x6 BHCS              | 2        |                                                                            |
@@ -29,8 +29,8 @@
 
 ### Standard
 
-![Standard](images/Sherpa_Mini_1.png)
+![Standard](images/Sherpa_Mini.png)
 
 ### Minified
 
-![Minified](images/Sherpa_Mini_Minified_1.png)
+![Minified](images/Sherpa_Mini_Minified.png)

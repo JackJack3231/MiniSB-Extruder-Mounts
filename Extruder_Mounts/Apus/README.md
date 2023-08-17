@@ -1,4 +1,5 @@
 # MiniSB Apus Extruder - Untested
+
 Because of the unique Shape of the Apus-Extruder there is only a Minified Version.
 
 This Mount has not been tested in an actual printer, however outside everything fits fine. So double check that your wiring doesn't hit anything in the back of the printer.
@@ -10,7 +11,7 @@ This Mount has not been tested in an actual printer, however outside everything 
 | M3x5x4 Heatset                         | 8        |                                                                            |
 | M3x4.2x3 Heatset                       | 2        | Only needed when using printed Apus-Adapter piece                          |
 | M3x35 BHCS                             | 2        |                                                                            |
-| M3x22 BHCS                             | 1        | M3x25 + M3 Washer also works                                               |
+| M3x20 BHCS                             | 1        |                                                                            |
 | M3x12 BHCS                             | 4        | Should be included with the Apus Extruder                                  |
 | M3x8 BHCS                              | 2        |                                                                            |
 | M3x6 BHCS                              | 4        |
@@ -27,4 +28,4 @@ This Mount has not been tested in an actual printer, however outside everything 
 
 ### Minified
 
-![Minified](images/Apus_Minified_1.png)
+![Minified](images/Apus_Minified.png)
