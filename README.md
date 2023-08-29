@@ -1,11 +1,11 @@
 # MiniSB-Extruder-Mounts
 
-Remix of the Mini-Stealthburner to run other Extruders
+Remix of the Mini-Stealthburner to run other Extruders.
 
 ![Lineup of Standard Extruder-Mounts](images/Standard_Lineup.png)
 ![Lineup of Minified Extruder-Mounts](images/Minified_Lineup.png)
 
-This repo includes reworked Files of the Mini-Stealthburner to allow you to use diferent Extruders, namely:
+This repo includes reworked Files of the Mini-Stealthburner to allow you to use different, namely:
 
 - [Phaetus Apus](https://www.phaetus.com/apus/)
 - [Mellow Libra Mini](https://www.aliexpress.com/item/1005003506182112.html)
@@ -35,13 +35,23 @@ As I don't have all of the extruders some are untested, however if the CAD-Files
 
 ## Versions
 
-There are two Versions, a "Standard" and a "Minified" Version. The Standard-Version has the upper Logo-Part of the MiniStealthburner in front of the Extruder (like [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA)). The Minified Version doesn't have this cover and is more in line with the Bowden-Toolhead or [Mini-AfterSherpa](https://github.com/PrintersForAnts/Mini-AfterSherpa).
+There are two visual Versions, a "Standard" and a "Minified" Version. The Standard-Version has the upper Logo-Part of the MiniStealthburner in front of the Extruder (like [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA)). The Minified Version doesn't have this cover and is more in line with the Bowden-Toolhead or [Mini-AfterSherpa](https://github.com/PrintersForAnts/Mini-AfterSherpa).
+
+### Rapido HF and Dragon UHF
+
+Additionally there are longer cowlings and hotend mounts to allow you to use a Rapido HF or a Dragon UHF. These versions can be found in the "High_Flow"-Folders of each extruder. **Remember that this will reduce a bit of the usable z height, so update your firmware configuration.**
+
+### Klicky and KlickyNG
+
+Also for Klicky-Users there are cowlings with the probe carrier part for both "normal" Klicky and KlickyNG.
 
 ### One Fits Most Version a.k.a Swiss Cheese
+
 There is a [Version](/Extruder_Mounts/_OneFitsMost/) that aims to support as many extruders as possible, while needing as few printed parts as possible. Dubbed swiss cheese.
+
 ## Strain-Relief and Spacers
 
-Also included are Strain-Reliefs (quickly and crappily thrown together) and Mounting Plates for the [Umbilical-PCB by Timmit](https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical).
+Also included are Strain-Reliefs (quickly and crappily thrown together), Mounting Plates for the [Umbilical-PCB by Timmit](https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical) and mounting plates for CAN-Toolhead boards based on [@KayosMaker/CANboard_Mounts](https://github.com/KayosMaker/CANboard_Mounts). **If you use a PCB Toolhead board please double check, that the screws on the mounting plate don't short anything!**
 
 The needed Spacers (Size according to CAD) are also included, both in the standard round shape and a octagon version inspired by [KayosMaker](https://github.com/KayosMaker/CANboard_Mounts). The Octagon Spacers are the preferred version, because these don't rely on layer-adhesion for their strength and can be printed lying down instead. Also note that depending on which motor you have on your extruder the Spacer-Length can change because Moons-Motors have a thicker Mounting-Flange (2.5mm) compared to LDO (2mm). Keep in mind, when installing the Heatsets into the spacers they can get squished, so the alignment is not 100% correct anymore. If you have issues with this try using longer spacers.
 
@@ -61,9 +71,16 @@ Pretty much all of the mounts get assembled the same way, important differences 
 6. Install everything to the X-Carriage, secure with 2 M3x35 BHCS from the front and 1 M3x20 BHCS from the rear
 7. Add Spacers for strain-relief/umbilical plate, you may need to replace some screws to have enough thread to engage with the spacers
 8. Add strain-relief/umbilical plate, secure to spacers and X-Carriage
+
 ## Credits
 
-The files have been remixed from [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA). CAD-Files are included as well as Base-CAD-Files so you can easily create a Version for your Extruder.
+The cowling files have been remixed from [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA). CAD-Files are included as well as Base-CAD-Files so you can easily create a Version for your Extruder.
+
+For the umbilical plates [Timmit's PCB CAD](https://github.com/VoronDesign/Voron-Hardware/tree/master/V0-Umbilical) was used.
+
+The CAN-board mounts are remixed from [KayosMakers CANboard Mounts](https://github.com/KayosMaker/CANboard_Mounts)
+
+The Klicky-Parts were directly taken from [jlas1's CAD-Files](https://github.com/jlas1/Klicky-Probe) on the Klicky-Probe github.
 
 ## Extras
 
@@ -72,18 +89,34 @@ There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Fold
 ![Mainsail Sidebar](images/mainsail-sidebar-example.png)
 
 # Changelog
+
+## 2023-08-29 Late August Update
+
+- Remade all of the CAD-Files. This was mainly to make updating in the future easier and faster. This resulted in cosmetic changes to all the cowlings and the umbilical plates. Strain relief plates have been altered in their height to be more consistent, the old STLs are still available in the Legacy folders.
+- Changed naming scheme of most STLs to make files easier to identify
+- Promoted HF-Cowlings from experimental to full release.
+- Updated Dragon UHF and Rapido Mount to use Holes for M2.5 instead of M3 screws.
+- Added Klicky and KlickyNG Cowlings (untested).
+- Added CAN-Board mounts (untested).
+- Orbiter v2.0: Dropped the "Offset"-Versions for now, unless someone wants them back.
+- Apus: Removed the "printed Adapter"-Cowling, as there is now enough space for the heatsets with the default adapter in the cowling because the Hex-nut was moved back a bit in the last update. There still is a printable adapter for people that don't have the default adapter anymore.
+
 ## 2023-08-17
+
 - Added LGX-Lite Mounts. As Maverick hasn't updated the original Mod to the R1 ducts, I decided to add updated LGX-Lite Mounts to this repo. This includes Strain Relief, Umbilical Plate and a Minified Version.
 - Added small hexagonal shape to the rear of the cowling. This makes it slot into the X-Carriage even more, thanks [@probably-Erwins-Cat](https://github.com/probably-Erwins-Cat) for pointing that out. Closes [#3](https://github.com/JackJack3231/MiniSB-Extruder-Mounts/issues/3)
 - Moved Hexnut in the cowling back 2mm so now a M3x20 BHCS can be used to secure the cowling from the back instead of a M3x22.
 
-## 2023-07-29: 
+## 2023-07-29:
+
 - Update Rapido Cowlings to use R1-style part-cooling-ducts (a bit ugly but should work pretty well)
 - Add Dragon UHF Mount, as it should work just like the Rapido HF
 - Update One Fits Most Version to use R1 part-cooling-ducts (missed that last time)
 
-## 2023-06-13: 
+## 2023-06-13:
+
 - Update Cowling ducts to the improved ones from the [V0.2r1 Release](https://github.com/VoronDesign/Voron-0#v02r1-2023-june). Rapido Cowlings are using the old ducts for now.
 
-## 2023-06-06: 
+## 2023-06-06:
+
 - Add Experimental Rapido HF Cowlings based on [Mavericks mod](https://mods.vorondesign.com/detail/dWZjGJ83RbTpRTdYYRwng).
