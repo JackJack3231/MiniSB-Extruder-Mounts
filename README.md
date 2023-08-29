@@ -80,7 +80,7 @@ For the umbilical plates [Timmit's PCB CAD](https://github.com/VoronDesign/Voron
 
 The CAN-board mounts are remixed from [KayosMakers CANboard Mounts](https://github.com/KayosMaker/CANboard_Mounts)
 
-The Klicky-Parts were directly taken from [jlas1's CAD-Files](https://github.com/jlas1/Klicky-Probe) on the Klicky-Probe github.
+The Klicky-Parts were directly taken from [JosAr's CAD-Files](https://github.com/jlas1/Klicky-Probe) on the Klicky-Probe github.
 
 ## Extras
 
