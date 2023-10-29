@@ -43,11 +43,19 @@ Additionally there are longer cowlings and hotend mounts to allow you to use a R
 
 ### Klicky and KlickyNG
 
-Also for Klicky-Users there are cowlings with the probe carrier part for both "normal" Klicky and KlickyNG.
+Also for Klicky-Users there are cowlings with the probe carrier part for both "normal" [Klicky and KlickyNG](https://github.com/jlas1/Klicky-Probe).
 
 ### One Fits Most Version a.k.a Swiss Cheese
 
 There is a [Version](/Extruder_Mounts/_OneFitsMost/) that aims to support as many extruders as possible, while needing as few printed parts as possible. Dubbed swiss cheese.
+
+### ZeroClick
+
+Versions that are compatible with the [ZeroClick Probe by zruncho3d](https://github.com/zruncho3d/ZeroClick) are planned, however no work has been done yet.
+
+### Boop
+
+An update to the Cowlings without Klicky/KlickyNG or ZeroClick is planned to make them compatible with [Boop](https://github.com/PrintersForAnts/Boop). Currently there is plastic on the back side that interferes with Boop.
 
 ## Strain-Relief and Spacers
 
