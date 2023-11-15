@@ -100,6 +100,12 @@ There are Toolhead-Pictures for the Mainsail sidebar included in the Extras Fold
 
 # Changelog
 
+## 2023-11-15
+
+- Added experimental Boop Support
+- Fixed STL names of OneFitsMost, Sherpa Micro and TBG-Lite-Left
+- (Re-) Added a small gap to the hexagonal contact between x-carriage and cowling, like in the original Mini-Stealthburner
+
 ## 2023-08-29 Late August Update
 
 - Remade all of the CAD-Files. This was mainly to make updating in the future easier and faster. This resulted in cosmetic changes to all the cowlings and the umbilical plates. Strain relief plates have been altered in their height to be more consistent, the old STLs are still available in the Legacy folders.
