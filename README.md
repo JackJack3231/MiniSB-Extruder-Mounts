@@ -55,7 +55,9 @@ Versions that are compatible with the [ZeroClick Probe by zruncho3d](https://git
 
 ### Boop
 
-An update to the Cowlings without Klicky/KlickyNG or ZeroClick is planned to make them compatible with [Boop](https://github.com/PrintersForAnts/Boop). Currently there is plastic on the back side that interferes with Boop.
+The non Klicky-Cowlings have a cutout for [Boop](https://github.com/PrintersForAnts/Boop).
+This is currently untested. The current strain-reliefs and PCB-plates are incompatible,
+I recommend using [KayosMakers CANboard Mounts](https://github.com/KayosMaker/CANboard_Mounts).
 
 ## Strain-Relief and Spacers
 
