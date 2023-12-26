@@ -17,7 +17,7 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 | M3x12 BHCS                                      | 3        |
 | M3x6 BHCS                                       | 2        |
 | M3x8 FHCS                                       | 1        |
-| M3 Hexnut                                       | 1        |
+| M3 Hex nut                                       | 1        |
 | 3010 Axial Fan                                  | 1        |
 | 3010 Blower Fan                                 | 2        |
 | Hotend                                          | 1        | There are a number of supported Hotends, check the V0.2 GitHub for options |
@@ -28,14 +28,14 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 | **Additional Parts for Umbilical PCB**          |
 | M3x8 BHCS                                       | 2        |                                                                            |
 | M3x6 BHCS                                       | 2        |                                                                            |
-| **Additional Parts for CAN-Toolheads**          |
+| **Additional Parts for CAN Toolheads**          |
 | M3x6 BHCS                                       | 4        |                                                                            |
 
 ## Spacer Sizes
 
-| LDO-Motor                                                                                                                    | MOONS-Motor                                                                                                                  |
+| LDO Motor                                                                                                                    | MOONS Motor                                                                                                                  |
 | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.40mm](/Spacers/Octagon-STL/Octagon_Spacer_22.40mm.stl) | 1x [20.35mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.90mm](/Spacers/Octagon-STL/Octagon_Spacer_21.90mm.stl) |
+| 1x [20.35 mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.40 mm](/Spacers/Octagon-STL/Octagon_Spacer_22.40mm.stl) | 1x [20.35 mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.90 mm](/Spacers/Octagon-STL/Octagon_Spacer_21.90mm.stl) |
 
 ## Images
 
