@@ -13,7 +13,7 @@ def doExport(geometry, exportMgr, exportDir, filename):
         subDir = "High_Flow (Rapido HF or Dragon UHF)"
     elif "SF" in geometry.name:
         subDir = "Standard_Flow"
-    elif "CAN_Plate" or "Strain_Relief_Plate" or "Umbilical_Plate" in geometry.name:
+    elif any(x in geometry.name for x in ["CAN_Plate", "Strain_Relief_Plate", "Umbilical_Plate", "Spacer"]):
         subDir = "Strain_Relief"
 
     if subDir != "":
