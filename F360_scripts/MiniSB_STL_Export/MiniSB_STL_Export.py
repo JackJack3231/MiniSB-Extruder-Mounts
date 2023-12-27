@@ -4,32 +4,43 @@
 
 import adsk.core, adsk.fusion, adsk.cam, traceback
 import os.path, sys
+from .src import pathvalidate
 
 
-def doExport(occ, exportMgr, scriptDir, exName):
-    exportDir = scriptDir + "\\" + ".export" + "\\" + exName + "\\" + "STL" + "\\"
+def doExport(geometry, exportMgr, scriptDir, exName):
+    exportDir = os.path.join(scriptDir, ".export", exName, "STL")
 
-    if "HF" in occ.name:
-        exportDir += "High_Flow (Rapido HF or Dragon UHF)\\"
-    elif "SF" in occ.name:
-        exportDir += "Standard_Flow\\"
-    elif "CAN_Plate" or "Strain_Relief_Plate" or "Umbilical_Plate" in occ.name:
-        exportDir += "Strain_Relief\\"
+    subDir = ""
 
-    if "KlickyNG" in occ.name:
-        exportDir += "KlickyNG\\"
-    elif "Klicky" in occ.name:
-        exportDir += "Klicky\\"
-    elif "ZeroClick" in occ.name:
-        exportDir += "ZeroClick\\"
+    if "HF" in geometry.name:
+        subDir = "High_Flow (Rapido HF or Dragon UHF)"
+    elif "SF" in geometry.name:
+        subDir = "Standard_Flow"
+    elif "CAN_Plate" or "Strain_Relief_Plate" or "Umbilical_Plate" in geometry.name:
+        subDir = "Strain_Relief"
+
+    if subDir != "":
+        exportDir = os.path.join(exportDir, subDir)
+
+    subsubDir = ""
+
+    if "KlickyNG" in geometry.name:
+        subsubDir = "KlickyNG"
+    elif "Klicky" in geometry.name:
+        subsubDir = "Klicky"
+    elif "ZeroClick" in geometry.name:
+        subsubDir = "ZeroClick"
+
+    if subsubDir != "":
+        exportDir = os.path.join(exportDir, subsubDir)
  
     os.makedirs(exportDir, exist_ok=True)
 
-    filename = occ.name.replace("XXX", exName).split(":")[0]
+    filename = geometry.name.replace("XXX", exName).split(":")[0]
 
-    fullPath = exportDir + filename + ".stl"
+    fullPath = os.path.join(exportDir, filename + ".stl")
 
-    stlExportOptions = exportMgr.createSTLExportOptions(occ, fullPath)
+    stlExportOptions = exportMgr.createSTLExportOptions(geometry, fullPath)
     stlExportOptions.sendToPrintUtility = False
     stlExportOptions.meshRefinement = adsk.fusion.MeshRefinementSettings.MeshRefinementHigh
     stlExportOptions.isOneFilePerBody = False
@@ -58,6 +69,10 @@ def run(context):
         (returnValue, cancelled) = ui.inputBox("Enter Extruder Name", "Export STLs", defName)
 
         if cancelled:
+            return
+        
+        if not pathvalidate.is_valid_filename(returnValue + ".stl"):
+            ui.messageBox("Invalid Filename!")
             return
         
         exName = returnValue

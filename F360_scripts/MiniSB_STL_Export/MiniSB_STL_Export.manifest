@@ -5,6 +5,6 @@
 	"description":	{
 		"":	"Exports all STLs and puts them into appropriate Folders"
 	},
-	"supportedOS":	"windows",
+	"supportedOS":	"windows|mac",
 	"editEnabled":	true
 }
