@@ -7,11 +7,8 @@ import os.path, sys
 from .src import pathvalidate
 
 
-def doExport(geometry, exportMgr, scriptDir, exName):
-    exportDir = os.path.join(scriptDir, ".export", exName, "STL")
-
+def doExport(geometry, exportMgr, exportDir, filename):
     subDir = ""
-
     if "HF" in geometry.name:
         subDir = "High_Flow (Rapido HF or Dragon UHF)"
     elif "SF" in geometry.name:
@@ -23,7 +20,6 @@ def doExport(geometry, exportMgr, scriptDir, exName):
         exportDir = os.path.join(exportDir, subDir)
 
     subsubDir = ""
-
     if "KlickyNG" in geometry.name:
         subsubDir = "KlickyNG"
     elif "Klicky" in geometry.name:
@@ -33,21 +29,22 @@ def doExport(geometry, exportMgr, scriptDir, exName):
 
     if subsubDir != "":
         exportDir = os.path.join(exportDir, subsubDir)
- 
-    os.makedirs(exportDir, exist_ok=True)
 
-    filename = geometry.name.replace("XXX", exName).split(":")[0]
+    # Create required folders, Fusion will not create the directories and instead throw an error
+    os.makedirs(exportDir, exist_ok=True)
 
     fullPath = os.path.join(exportDir, filename + ".stl")
 
     stlExportOptions = exportMgr.createSTLExportOptions(geometry, fullPath)
     stlExportOptions.sendToPrintUtility = False
-    stlExportOptions.meshRefinement = adsk.fusion.MeshRefinementSettings.MeshRefinementHigh
+    stlExportOptions.meshRefinement = (
+        adsk.fusion.MeshRefinementSettings.MeshRefinementHigh
+    )
     stlExportOptions.isOneFilePerBody = False
     stlExportOptions.isBinaryFormat = True
-                
+
     exportMgr.execute(stlExportOptions)
-    
+
 
 def run(context):
     ui = None
@@ -59,41 +56,59 @@ def run(context):
         design = adsk.fusion.Design.cast(product)
 
         if not design:
-            ui.messageBox('No active Fusion design', 'No Design')
+            ui.messageBox("No active Fusion design", "No Design")
             return
-        
+
         rootComp = design.rootComponent
 
-        defName = rootComp.name.replace("MiniSB-", "").split(" ")[0]
-
-        (returnValue, cancelled) = ui.inputBox("Enter Extruder Name", "Export STLs", defName)
+        (extruderName, cancelled) = ui.inputBox(
+            "Enter Extruder Name",
+            "Export STLs",
+            rootComp.name.replace("MiniSB-", "").split(" ")[0],
+        )
 
         if cancelled:
             return
-        
-        if not pathvalidate.is_valid_filename(returnValue + ".stl"):
+
+        if not pathvalidate.is_valid_filename(extruderName + ".stl"):
             ui.messageBox("Invalid Filename!")
             return
-        
-        exName = returnValue
 
-        scriptDir = os.path.dirname(os.path.realpath(__file__))
+        exportDir = os.path.join(
+            os.path.dirname(os.path.realpath(__file__)), ".export", extruderName, "STL"
+        )
 
         exportMgr = design.exportManager
 
-        allOccu = rootComp.allOccurrences
+        exportItems = []
 
-        for occ in allOccu:
+        # Search through design for things to export
+        for occ in rootComp.allOccurrences:
             if "XXX" in occ.name:
-                doExport(occ, exportMgr, scriptDir, exName)
+                exportItems.append(occ)
 
-            allBodies = occ.bRepBodies
-            for body in allBodies:
+            for body in occ.bRepBodies:
                 if "XXX" in body.name:
-                    doExport(body, exportMgr, scriptDir, exName)
+                    exportItems.append(body)
 
+        progressDialog = ui.createProgressDialog()
+        progressMsg = "Exporting STL %v of %m\n"
+        progressDialog.isCancelButtonShown = False
+        progressDialog.show("Exporting STLs", progressMsg, 0, len(exportItems), 0)
+
+        for item in exportItems:
+            progressDialog.progressValue += 1
+            filename = item.name.replace("XXX", extruderName).split(":")[0]
+            progressDialog.message = progressMsg + filename
+            doExport(item, exportMgr, exportDir, filename)
+
+        progressDialog.hide()
+
+        if sys.platform.startswith("win"):
+            os.startfile(exportDir)
+        ui.messageBox(
+            "Successfully exported " + str(len(exportItems)) + " STLs to:\n" + exportDir
+        )
     except:
         if ui:
             ui.messageBox("Failed:\n{}".format(traceback.format_exc()))
-
-
