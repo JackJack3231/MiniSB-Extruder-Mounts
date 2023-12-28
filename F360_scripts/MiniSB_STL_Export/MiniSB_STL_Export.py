@@ -13,7 +13,10 @@ def doExport(geometry, exportMgr, exportDir, filename):
         subDir = "High_Flow (Rapido HF or Dragon UHF)"
     elif "SF" in geometry.name:
         subDir = "Standard_Flow"
-    elif any(x in geometry.name for x in ["CAN_Plate", "Strain_Relief_Plate", "Umbilical_Plate", "Spacer"]):
+    elif any(
+        x in geometry.name
+        for x in ["CAN_Plate", "Strain_Relief_Plate", "Umbilical_Plate", "Spacer"]
+    ):
         subDir = "Strain_Relief"
 
     if subDir != "":
@@ -80,23 +83,35 @@ def run(context):
 
         exportMgr = design.exportManager
 
-        exportItems = []
-
         # Search through design for things to export
+        exportItems = []
         for occ in rootComp.allOccurrences:
-            if "XXX" in occ.name:
+            if "XXX" in occ.name and occ.isVisible:
                 exportItems.append(occ)
 
             for body in occ.bRepBodies:
-                if "XXX" in body.name:
+                if "XXX" in body.name and body.isVisible:
                     exportItems.append(body)
+
+        # Remove duplicates from found items
+        prunedItems = []
+        for item in exportItems:
+            unique = True
+            for comp in prunedItems:
+                if item.name.split(":")[0] == comp.name.split(":")[0]:
+                    unique = False
+                    break
+            if unique:
+                prunedItems.append(item)
+
+        del exportItems
 
         progressDialog = ui.createProgressDialog()
         progressMsg = "Exporting STL %v of %m\n"
         progressDialog.isCancelButtonShown = False
-        progressDialog.show("Exporting STLs", progressMsg, 0, len(exportItems), 0)
+        progressDialog.show("Exporting STLs", progressMsg, 0, len(prunedItems), 0)
 
-        for item in exportItems:
+        for item in prunedItems:
             progressDialog.progressValue += 1
             filename = item.name.replace("XXX", extruderName).split(":")[0]
             progressDialog.message = progressMsg + filename
@@ -107,7 +122,7 @@ def run(context):
         if sys.platform.startswith("win"):
             os.startfile(exportDir)
         ui.messageBox(
-            "Successfully exported " + str(len(exportItems)) + " STLs to:\n" + exportDir
+            "Successfully exported " + str(len(prunedItems)) + " STLs to:\n" + exportDir
         )
     except:
         if ui:
