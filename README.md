@@ -109,7 +109,7 @@ There are Toolhead Pictures for the Mainsail sidebar included in the Extras Fold
 
 ## 2023-12-26
 
-- Added experimental ZeroClick support. Progresses [#4]
+- Added experimental ZeroClick support. Progresses [#4](https://github.com/JackJack3231/MiniSB-Extruder-Mounts/issues/4)
 - Added Dragon Ace Mount
 - Spelling and grammar fixes in the repo
 
