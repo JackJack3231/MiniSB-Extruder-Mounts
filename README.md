@@ -19,7 +19,7 @@ This repo includes reworked Files of the Mini-Stealthburner to allow you to use 
 
 The only parts that have changed are the Cowling, Strain-Relief and the Spacers. Everything else is Stock(Hotend Mount, X-Carriage) so this is a drop-in-replacement for Printers with the V0.2-Style X-Carriage.
 
-As I don't have all the extruders some are untested, however if the CAD-Files are accurate they should work fine. This table shows the versions I have verified to work (green checkmark):
+As I don't have all the extruders some are untested, however if the CAD-Files are accurate they should work fine. This table shows the versions I have verified to work ( :heavy_check_mark:: verified, :grey_question:: untested):
 | Extruder | Standard | Minified |
 | -------- | -------- | -------- |
 | Phaetus Apus | N/A | :grey_question: |
