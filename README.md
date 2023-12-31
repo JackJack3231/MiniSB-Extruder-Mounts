@@ -41,7 +41,7 @@ There are two visual Versions, a "Standard" and a "Minified" Version. The Standa
 
 Additionally, there are longer cowlings and Hotend mounts to allow you to use a Rapido HF or a Dragon UHF. These versions can be found in the "High_Flow"-Folders of each extruder. **Remember that this will reduce a bit of the usable z height, so update your firmware configuration.**
 
-Also, there is a mount for the Dragon Ace Hotend (the mount is exactly the same as the Dragon UHF). With this mount you can use the Dragon Ace with the "Standard Flow" cowlings as it is 3 mm shorter than the Rapido HF or Dragon UHF. Alternatively you can use the spacer that is included with the Dragon ace and use it with the "High Flow" cowlings.
+Also, there is a mount for the [Dragon Ace Hotend](https://www.trianglelab.net/products/dragon-ace%E2%84%A2-hotend) (the mount is exactly the same as the Dragon UHF). With this mount you can use the Dragon Ace with the "Standard Flow" cowlings as it is 3 mm shorter than the Rapido HF or Dragon UHF. Alternatively you can use the spacer that is included with the Dragon ace and use it with the "High Flow" cowlings.
 
 ### Klicky and KlickyNG
 
