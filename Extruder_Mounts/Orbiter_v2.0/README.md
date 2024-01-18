@@ -27,7 +27,7 @@
 
 | LDO Motor                                                     | MOONS Motor                                                   |
 | ------------------------------------------------------------- | ------------------------------------------------------------- |
-| 2x [18.10 mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) | 2x [17.60 mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
+| 2x [18.10 mm](/Spacers/Octagon-STL/Octagon_Spacer_18.10mm.stl) | 2x [17.60 mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) |
 
 ## Images
 
