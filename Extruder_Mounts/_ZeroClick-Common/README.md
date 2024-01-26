@@ -1,7 +1,5 @@
 # ZeroClick for Mini-Stealthburner
 
-**All of these parts are currently untested, use at your own risk!**
-
 This is a custom implementation of ZeroClick. The only unchanged part is the probe.
 This was done to achieve the following goals:
 
@@ -9,6 +7,8 @@ This was done to achieve the following goals:
 - Allow the use of 2 Sequins LEDs
 
 This resulted in a custom Mount that gets attached to the cowling, an adjusted Dock and slim rail stoppers for the z-axis.
+
+[Video of ZeroClick in action](https://github.com/JackJack3231/MiniSB-Extruder-Mounts/issues/4#issuecomment-1911860910)
 
 ### Offset Mount
 
