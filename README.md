@@ -53,10 +53,11 @@ There is a [Version](/Extruder_Mounts/_OneFitsMost/) that aims to support as man
 
 ### ZeroClick
 
-**Currently untested**
-
 Support for the [ZeroClick Probe by zruncho3d](https://github.com/zruncho3d/ZeroClick) is available.
+
 To make space and reduce the chance of collisions, the Dock and Mount have been remade, and special Cowlings are necessary. Also, unlike other remixes of the MiniSB for ZeroClick, this implementation should (barely) allow the use of both Sequin LEDs. More information can be found in the [ZeroClick Common Folder](/Extruder_Mounts/_ZeroClick-Common/).
+
+[Video of ZeroClick in action](https://github.com/JackJack3231/MiniSB-Extruder-Mounts/issues/4#issuecomment-1911860910)
 
 ### Boop
 
