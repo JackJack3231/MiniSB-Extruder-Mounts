@@ -25,10 +25,17 @@ def doExport(geometry, exportMgr, exportDir, filename):
     subsubDir = ""
     if "KlickyNG" in geometry.name:
         subsubDir = "KlickyNG"
+    elif "Klicky-PCB" in geometry.name:
+        # return
+        subsubDir = "Klicky-PCB"
     elif "Klicky" in geometry.name:
         subsubDir = "Klicky"
     elif "ZeroClick" in geometry.name:
         subsubDir = "ZeroClick"
+    elif "PINDA" in geometry.name:
+        subsubDir = "PINDA"
+    elif "Spacer" in geometry.name:
+        subsubDir = "Spacer"
 
     if subsubDir != "":
         exportDir = os.path.join(exportDir, subsubDir)
@@ -101,7 +108,7 @@ def run(context):
                 if item.name.split(":")[0] == comp.name.split(":")[0]:
                     unique = False
                     break
-            if unique:
+            if unique and not "Klicky-PCB" in item.name:
                 prunedItems.append(item)
 
         del exportItems
