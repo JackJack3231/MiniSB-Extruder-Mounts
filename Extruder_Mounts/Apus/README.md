@@ -14,7 +14,7 @@ This Mount has not been tested in an actual printer, however outside everything 
 | M3x20 BHCS                                      | 1        |                                                                            |
 | M3x12 BHCS                                      | 4        | Should be included with the Apus Extruder                                  |
 | M3x6 BHCS                                       | 4        |
-| M3 Hex nut                                       | 1        |
+| M3 Hex nut                                      | 1        |
 | 3010 Axial Fan                                  | 1        |
 | 3010 Blower Fan                                 | 2        |
 | Hotend                                          | 1        | There are a number of supported Hotends, check the V0.2 GitHub for options |
@@ -33,3 +33,7 @@ This Mount has not been tested in an actual printer, however outside everything 
 ### Minified
 
 ![Minified](images/Apus_Minified.png)
+
+## CAD-Source
+
+The source for the CAD-File of the extruder is the [Phaetus Apus GitHub repository](https://github.com/Phaetus/Apus)

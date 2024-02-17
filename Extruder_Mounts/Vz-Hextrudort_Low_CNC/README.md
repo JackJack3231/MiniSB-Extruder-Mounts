@@ -9,7 +9,7 @@
 | M3x20 BHCS                                      | 1        |                                                                            |
 | M3x12 BHCS                                      | 2        |
 | M3x6 BHCS                                       | 2        |
-| M3 Hex nut                                       | 1        |
+| M3 Hex nut                                      | 1        |
 | 3010 Axial Fan                                  | 1        |
 | 3010 Blower Fan                                 | 2        |
 | Hotend                                          | 1        | There are a number of supported Hotends, check the V0.2 GitHub for options |
@@ -23,12 +23,6 @@
 | **Additional Parts for CAN Toolheads**          |
 | M3x6 BHCS                                       | 4        |                                                                            |
 
-## Spacer Sizes
-
-| LDO Motor                                                     | MOONS Motor                                                   |
-| ------------------------------------------------------------- | ------------------------------------------------------------- |
-| 2x [22.20 mm](/Spacers/Octagon-STL/Octagon_Spacer_22.20mm.stl) | 2x [21.70 mm](/Spacers/Octagon-STL/Octagon_Spacer_21.70mm.stl) |
-
 ## Images
 
 ### Standard
@@ -38,3 +32,7 @@
 ### Minified
 
 ![Minified](images/Vz-Hextrudort_Low_CNC_Minified.png)
+
+## CAD-Source
+
+The source for the CAD-File of the extruder is the [Vz-HextrudORT GitHub repository](https://github.com/VzBoT3D/Vz-HextrudORT)

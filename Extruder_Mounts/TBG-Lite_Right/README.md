@@ -17,7 +17,7 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 | M3x12 BHCS                                      | 3        |
 | M3x6 BHCS                                       | 2        |
 | M3x8 FHCS                                       | 1        |
-| M3 Hex nut                                       | 1        |
+| M3 Hex nut                                      | 1        |
 | 3010 Axial Fan                                  | 1        |
 | 3010 Blower Fan                                 | 2        |
 | Hotend                                          | 1        | There are a number of supported Hotends, check the V0.2 GitHub for options |
@@ -31,12 +31,6 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 | **Additional Parts for CAN Toolheads**          |
 | M3x6 BHCS                                       | 4        |                                                                            |
 
-## Spacer Sizes
-
-| LDO Motor                                                                                                                    | MOONS Motor                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| 1x [20.35 mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [22.40 mm](/Spacers/Octagon-STL/Octagon_Spacer_22.40mm.stl) | 1x [20.35 mm](/Spacers/Octagon-STL/Octagon_Spacer_20.35mm.stl), 1x [21.90 mm](/Spacers/Octagon-STL/Octagon_Spacer_21.90mm.stl) |
-
 ## Images
 
 ### Standard
@@ -46,3 +40,7 @@ The orientation in which the PTFE-Holder is printed makes it crucial that you ha
 ### Minified
 
 ![Minified](images/TBG-Lite-Right_Minified.png)
+
+## CAD-Source
+
+The source for the CAD-File of the extruder is the [TriangleLab Google Drive](https://drive.google.com/drive/folders/1Wax49gipz4rJb-TFV5nfNy9x6yN46WqA)

@@ -24,12 +24,6 @@
 | **Additional Parts for CAN Toolheads**          |
 | M3x6 BHCS                                       | 4        |                                                                            |
 
-## Spacer Sizes
-
-| LDO Motor                                                     | MOONS Motor                                                   |
-| ------------------------------------------------------------- | ------------------------------------------------------------- |
-| 2x [18.00 mm](/Spacers/Octagon-STL/Octagon_Spacer_18.00mm.stl) | 2x [17.50 mm](/Spacers/Octagon-STL/Octagon_Spacer_17.50mm.stl) |
-
 ## Images
 
 ### Standard
@@ -39,3 +33,7 @@
 ### Minified
 
 ![Minified](images/LGX_Lite_Minified.png)
+
+## CAD-Source
+
+The source for the CAD-File of the extruder is [Mavericks LGX-Lite Mod](https://mods.vorondesign.com/detail/nJmiEHmmiI9woW4PqjQ2dA)

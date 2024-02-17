@@ -25,12 +25,6 @@ Because of the length of the Orbiter v1.5 there are some challenges with this de
 | **Additional Parts for CAN Toolheads**          |
 | M3x6 BHCS                                       | 4        |                                                                            |
 
-## Spacer Sizes
-
-| LDO Motor                                                     | MOONS Motor                                                   |
-| ------------------------------------------------------------- | ------------------------------------------------------------- |
-| 2x [17.60 mm](/Spacers/Octagon-STL/Octagon_Spacer_17.60mm.stl) | 2x [17.10 mm](/Spacers/Octagon-STL/Octagon_Spacer_17.10mm.stl) |
-
 ## Images
 
 ### Standard
@@ -40,3 +34,7 @@ Because of the length of the Orbiter v1.5 there are some challenges with this de
 ### Minified
 
 ![Minified](images/Orbiter_v1.5_Minified.png)
+
+## CAD-Source
+
+The source for the CAD-File of the extruder is the [Orbiter v1.5 Thingiverse page](https://www.thingiverse.com/thing:4725897)
