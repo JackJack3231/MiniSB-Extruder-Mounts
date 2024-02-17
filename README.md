@@ -157,6 +157,8 @@ There are Toolhead Pictures for the Mainsail sidebar included in the Extras Fold
     - Lerdge Aquarius
     - Vz-Hextrudort Low Plus CNC
 
+Currently, there are no assembly manuals / documentation for the new extruders
+
 ## 2023-12-26
 
 - Added experimental ZeroClick support. Progresses [#4](https://github.com/JackJack3231/MiniSB-Extruder-Mounts/issues/4)
