@@ -29,11 +29,11 @@ As I don't have all the extruders some are untested, however if the CAD-Files ar
 | Extruder | | Notes |
 | -------- | -------- | ----- |
 | Phaetus Apus | :heavy_division_sign: | Assembly works, but needs testing inside a printer |
-| Lerdge Aquarius | :grey_question: | Assembly works, but needs testing inside a printer |
-| HGT | :grey_question: |
-| HGX 2.0 | :grey_question: |
-| HGX-Lite | :grey_question: | Assembly works, but needs testing inside a printer |
-| LGX-Lite | :grey_question: |
+| Lerdge Aquarius | :heavy_division_sign: | Assembly works, but needs testing inside a printer |
+| HGT | :heavy_check_mark: |
+| HGX 2.0 | :heavy_check_mark: |
+| HGX-Lite | :heavy_division_sign: | Assembly works, but needs testing inside a printer |
+| LGX-Lite | :heavy_check_mark: |
 | Libra Mini | :grey_question: |
 | Orbiter v1.5 | :heavy_division_sign: | Assembly works, but needs testing inside a printer |
 | Orbiter v2.0 | :heavy_check_mark: |
@@ -42,9 +42,9 @@ As I don't have all the extruders some are untested, however if the CAD-Files ar
 | Sherpa Mini | :heavy_check_mark: |
 | TBG-Lite Left | :heavy_check_mark: |
 | TBG-Lite Right | :heavy_check_mark: |
-| TBG-S | :grey_question: |
+| TBG-S | :heavy_check_mark: |
 | Vz-Hextrudort Low CNC | :heavy_check_mark: |
-| Vz-Hextrudort Low Plus CNC | :grey_question: |
+| Vz-Hextrudort Low Plus CNC | :heavy_check_mark: |
 
 ## Versions
 
